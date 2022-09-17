@@ -1,0 +1,74 @@
+/**
+* @name Comfy X Nocturnal
+* @version 1.0
+* @description Ctlr C + Ctrl V
+* @author bb
+* @invite RzzsPjH
+* @Source N/a
+* @website https://linktr.ee/thebebee
+*/
+@import url("https://codedotspectra.github.io/themes/themes-cores/nocturnal.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Better Hljs */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css"; /* Better SpotifyControls seek bar */
+:root {
+  --backgroundColor01: #131920;
+  --backgroundColor02: #0a0c10;
+  --mainColor: #2275c9;
+  --gradientColor01: #8080ff;
+  --gradientColor02: #862d86;
+
+  /* Better Hljs */
+  --backgroundCode: #131920;
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+  /* ═══════『 💬 SpotifyControls seek bar 』═══════
+*   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
+
+  /* Default value : #1EDC62 */
+  --spotify-color: #1edc62;
+
+  /* ═══════『 🟢 Status 』═══════ */
+
+  /* Online - Default value : #43B581 */
+  --online: #43b581;
+
+  /* Iddle - Default value : #FAA61A */
+  --iddle: #faa61a;
+
+  /* Do Not Disturb - Default value : #F04747 */
+  --dnd: #f04747;
+
+  /* Offline - Default value : #747F8D */
+  --offline: #747f8d;
+
+  /* Streaming - Default value : #593695 */
+  --streaming: #593695;
+
+  /* ═══════『 🔰 User popout 』═══════ */
+
+  /* Playing wave color */
+  --playing: #7289da;
+
+  /* Listening wave color */
+  --listening: #1db653;
+
+  /* Role circle - Default value : 5px */
+  --role-circle: 5px;
+}
